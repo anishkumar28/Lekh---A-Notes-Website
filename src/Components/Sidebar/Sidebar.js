@@ -5,7 +5,7 @@ import "./Sidebar.css";
 function Sidebar(props) {
   const colors = [ "#fe9b72", "#fec971", "#00d4fe", "#b693fd", "#e4ee91"];
 
-  const [listOpen,setListOpen]=useState(false);
+  const [listOpen,setListOpen]=useState(true);
 
   return (
     <div className="sidebar">
